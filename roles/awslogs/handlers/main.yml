@@ -1,0 +1,8 @@
+---
+# handlers file for awslogs
+
+- name: restart awslogs 
+  service: 
+    name: awslogs 
+    state: restarted 
+
